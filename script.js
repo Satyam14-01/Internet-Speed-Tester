@@ -87,7 +87,7 @@ button.addEventListener('click', async () => {
         progress_bar_color.style.width = `${(((i + 1) / totalNumberOfTestsForAccurateResult) * 100)}%` 
 
 
-        displaySpeedResultSpan.textContent = `${getAverageSpeed()} kbps`;
+        displaySpeedResultSpan.textContent = `${getAverageSpeed()} mbps`;
 
         displaySpeedResultDiv.style.display = 'block';
 
